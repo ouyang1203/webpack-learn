@@ -1,0 +1,18 @@
+html,body{
+    .box{
+        width:220px;
+        height: 120px;
+        background-color: blue;
+        //默认情况下webpack无法处理CSS中的URL地址，不管是图片还是字体库
+        background-image: url('../images/1.jpg');
+        background-size: cover;
+    }
+    .box2{
+        width:220px;
+        height: 120px;
+        background-color: blue;
+        //默认情况下webpack无法处理CSS中的URL地址，不管是图片还是字体库
+        background-image: url('../images2/1.jpg');
+        background-size: cover;
+    }
+}
